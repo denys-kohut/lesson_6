@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.example-item > span {
+    display: block;
+}
+
+.example-item span span {
+    color: blue
+}
+
+.example-item + * {
+
+}
+
+p + * {
+    color: blueviolet
+}
+
+p ~ * {
+    color: red;
+}
+
+/* p
+b
+h1
+p */
+
+/* .example-list {
+    font-size: 0;
+}
+
+.example-item {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+} */
+
+.example-item {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.example-item + .example-item {
+    margin-left: 10px;
+}
